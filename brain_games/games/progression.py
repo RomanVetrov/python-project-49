@@ -7,12 +7,14 @@ MAX_START_NUM = 20
 MIN_STEP = 1
 MAX_STEP = 10
 
+
 def generate_progression(start, step, length):
     
     progression = []
     for i in range(length):
         progression.append(start + i * step)
     return progression
+
 
 def generate_round():
     start = random.randint(MIN_START_NUM, MAX_START_NUM)

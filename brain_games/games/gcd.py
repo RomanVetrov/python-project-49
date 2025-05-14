@@ -1,9 +1,10 @@
-import random
 import math
+import random
 
 GAME_RULE = 'Find the greatest common divisor of given numbers.'
 MIN_NUMBER = 1
 MAX_NUMBER = 100
+
 
 def generate_round():
     num1 = random.randint(MIN_NUMBER, MAX_NUMBER)

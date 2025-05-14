@@ -2,6 +2,7 @@ import prompt
 
 ROUNDS_COUNT = 3
 
+
 def run_game(game_module):
         
     print("Welcome to the Brain Games!")
@@ -22,6 +23,6 @@ def run_game(game_module):
             print(f"'{user_answer}' is wrong answer ;(. "
                   f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
-            return  
+            return 
 
     print(f"Congratulations, {name}!")
